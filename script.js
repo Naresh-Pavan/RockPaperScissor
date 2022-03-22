@@ -12,6 +12,8 @@ const showResult=function(Result){
     document.getElementById('Result').textContent= `Result: ${Result}`;
     
 };
+object.onclick=game()
+{myScript};
 const game=function (input){
     userChoice=input;
     let randomNumber=Math.trunc(Math.random()*3);
