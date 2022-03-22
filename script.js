@@ -1,5 +1,4 @@
 'use strict';
-
 const weapons=['rock','paper','scissor'];
 let userChoice;
 let compChoice;
@@ -12,9 +11,7 @@ const showResult=function(Result){
     document.getElementById('Result').textContent= `Result: ${Result}`;
     
 };
-object.onclick=game()
-{myScript};
-const game=function (input){
+const Game=function (input){
     userChoice=input;
     let randomNumber=Math.trunc(Math.random()*3);
     compChoice=weapons[randomNumber];
