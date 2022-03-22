@@ -6,7 +6,7 @@ let compChoice;
 let userScore=0;
 let compScore=0;
 
-const showResult=function(result){
+const showResult=function(Result){
     document.getElementById('user-choice').textContent=`User Choice: ${userChoice}`;
     document.getElementById('comp-choice').textContent=`Computer Choice: ${compChoice}`;
     document.getElementById('Result').textContent= `Result: ${Result}`;
