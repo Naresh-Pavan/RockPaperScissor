@@ -21,9 +21,9 @@
   }
   .container{
       width:80%;
-      max-width: 24rem;
+      max-width: 30rem;
       height:auto;
-      padding: 3rem 1.5rem;
+      padding: 3rem 0rem;
       background-color: whitesmoke;
       border-radius: 10px;
       box-shadow: 6px 6px 2px
@@ -31,7 +31,7 @@
   .details{
       display:flex;
       align-items: center;
-      justify-content:space-between;
+      justify-content:space-evenly;
       margin-bottom:1rem;
   }
   .details .title{
@@ -42,6 +42,7 @@
   }
   .details .scores{
       font-size:1.2rem;
+    
   }
   .details .scores .span{
       font-weight:900;
