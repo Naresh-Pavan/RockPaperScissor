@@ -28,20 +28,28 @@
       border-radius: 10px;
       box-shadow: 6px 6px 2px
   }
+  .title{
+      text-align: center;
+      margin-bottom: 15px;
+      background-color: black;
+      color:white;
+      padding: 5px;
+  }
   .details{
       display:flex;
       align-items: center;
       justify-content:space-evenly;
       margin-bottom:1rem;
   }
-  .details .title{
-      font-size:1.25rem;
-      text-transform: uppercase;
-      line-height:1.7;
-      font-weight:900;
-  }
   .details .scores{
       font-size:1.2rem;
+      text-align: center;
+      background-color:#FFFB7D ;
+      color: black;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: 900;
+      border: 5px solid #85FFBD;
     
   }
   .details .scores .span{
