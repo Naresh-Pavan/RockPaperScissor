@@ -14,7 +14,7 @@ const showResult=function(result){
 };
 const game=function (input){
     userChoice=input;
-    let randomNumber=math.trunc(Math.random()*3);
+    let randomNumber=Math.trunc(Math.random()*3);
     compChoice=weapons[randomNumber];
     
     if(userChoice==='rock'){
