@@ -46,9 +46,17 @@ const game=function (input){
         }else if(compChoice==='scissor'){
             showResult('Game Draw');
         }
+    } 
+    if (userScore===3 || compScore===3){
+        refresh()
     }
     document.getElementById('user-score').textContent=userScore;
     document.getElementById('comp-score').textContent=compScore;
     };
+       
+function refresh(){
+    setTimeout("window.location.reload()",3000);
+    }
+
 
 
