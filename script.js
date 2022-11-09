@@ -47,7 +47,7 @@ const game=function (input){
             showResult('Game Draw');
         }
     } 
-    if (userScore===3 || compScore===3){
+    if (userScore===10 || compScore===10){
         refresh()
     }
     document.getElementById('user-score').textContent=userScore;
